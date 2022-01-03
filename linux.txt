@@ -1,0 +1,85 @@
+
+
+B站3倍工具，F12在console中输入
+document.querySelector('video').playbackRate = 3
+
+复制这一条命令在乌班图的终端，然后点显示设置会出现重新的分辨率。	
+
+
+sudo xrandr --newmode "1920x900_60.00"  142.50  1920 2032 2232 2544  900 903 913 934 -hsync +vsync
+sudo xrandr --addmode Virtual1 "1920x900_60.00"	
+	
+	
+乌班图系统改中文
+https://jingyan.baidu.com/article/3aed632ec1d120701180916b.html
+
+
+两种方法在VMware中安装VMware Tools
+https://blog.csdn.net/blessed_sy/article/details/81173746
+
+
+
+linux安装问题：what is the location of the gcc program on your machine
+你点击what is the location of "gcc"program on your machine 然后回车，它会问你：Would you like to change it  注意这项， 你选 NO  ,输入的方法就是  空格+no  然后它就不会出现那个what is the location of "gcc"program on your machine，然后出现警告，不管他，直接全部回车按下去，最后就看到 分辨率 那个了
+
+
+Linux ssh连接虚拟机失败（未开放22端口）
+https://blog.csdn.net/weixin_42170236/article/details/114394789
+
+
+乌班图安装新版python3.10
+Ubuntu18.04直接安装python3.7或者升级自带的python3.6版本之后导致终端无法打开的解决办法
+https://www.cnblogs.com/douyini/p/11587656.html	
+
+pip3 install autopep8
+
+# 启动redis的第三方图形界面
+http://127.0.0.1:8085/treenms
+treesoft 密码：123456
+启动redis
+redis-server.exe redis.windows.conf
+
+
+情况1.没有pip这种情况只会发生在linux上，如果您是MacOS或者Windows请跳过此情况。如果您出现了这种情况，会出现这样的错误代码：bash: pip: command not found... 这样，只需要安装pip，输入命令：wget https://bootstrap.pypa.io/get-pip.pypython3 get-pip.py就可以成功使用pip install了。
+
+作者：Bobby3f
+链接：https://www.zhihu.com/question/368188904/answer/988008531
+
+
+jupyter扩展插件以及使用方法nbextension
+https://www.jianshu.com/p/7d97d6a87a27
+
+
+修改谷歌浏览器为jupyter notebook的默认浏览器
+https://blog.csdn.net/junhongzhang/article/details/103686755
+
+
+
+大数据学习笔记——Spark完全分布式完整部署教程 
+https://www.cnblogs.com/w950219/p/12038467.html
+
+
+
+MongoDB 各个位版本下载地址
+https://www.cnblogs.com/dfsxh/p/10847675.html
+从MongoDB导出文件到csv
+
+
+Xshell安装
+https://blog.wxlost.com/xshell_hosts.html
+
+
+./mongoexport -d 猎聘网 -c python职位招聘 -f _id,title,company,salary,area,experience,education,job_tax,job_content --type=csv -o C:\Users\william\Desktop\新建文件夹/python.csv
+
+将MongoDB数据库中的数据导出到Excel中，只需以下几个步骤：
+
+（1）首先，打开MongoDB安装目录下的bin文件夹，（C:\Program Files (x86)\MongoDB\Server\3.2\bin）；此处视个人安装目录而定。
+
+（2）然后，在该bin目录下，按住“shift”键，鼠标右键单击选择“在此处打开Powershell窗口”。
+
+（3）在打开的控制台界面中输入
+./mongoexport -d 猎聘网 -c python职位招聘 -f _id,title,company,salary,area,experience,education,job_tax,job_content --type=csv -o C:\Users\william\Desktop\新建文件夹/python.csv   命令，回车即可。 
+
+
+
+计算机专业所学课程有高等数学、线性代数、概率与数理统计、普通物理、离散数学、计算机科学导论、C语言及程序设计、汇编语言、计算机组成原理、算法与数据结构、操作系统原理、软件工程、计算机网络与通信、计算机专业英语、编译原理、数据库系统原理等。
