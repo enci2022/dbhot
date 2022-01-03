@@ -1,6 +1,6 @@
 
 
-B站3倍工具，F12在console中输入
+B站3倍工具，F12在console中输入:
 document.querySelector('video').playbackRate = 3
 
 复制这一条命令在乌班图的终端，然后点显示设置会出现重新的分辨率。	
